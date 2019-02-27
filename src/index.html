@@ -1,18 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Gloria+Hallelujah" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- INICIO ENCABEZADO-->
+    <header>
+        <div class="container-fluid">
+            <div class="topHeader">
+                <div class="headerLogo"> <!--logotipo-->
+                    <img src = "imagenes/logoSinFondo.png"  alt="logo">
+                </div>
+                <div class="titleHeader">
+                    <h1>Level UP League of Legends</h1>
+                </div>
+            </div>
+            
+            <nav class="navbar"><!--Menu-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="champions.html">Champions</a></li>
+                    <li><a href="organization.html">Organización</a></li>
+                    <li><a href="comparison.html">Comparar Champions</a></li>
+                    <li><a href="vocabulary.html">Vocabulario</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <!-- FIN ENCABEZADO-->
+
+
+    <div class="container">
+        <section class= "row">
+            <div class="col-xs-7">
+                <div class="video">
+                    <EMBED SRC="imagenes/League of Legends ¿Por qué es mi pasión.mp4" HEIGHT=350 WIDTH=600 AUTOSTART=TRUE LOOP=FALSE>
+                </div>
+            </div>
+            <div class="infoHome">
+                <div class="col-xs-5">
+                        <div class=imgLol><img src="imagenes/LOLlogo.jpg" alt="lol"><a href="index.html"></a>
+                        </div>
+                    <p>Ya sea que juegues solo o en modo cooperativo con amigos, League of Legends es un juego
+                    muy competitivo y rápido con acción y estrategia diseñado para aquellos que ansían una
+                    victoria bien merecida.
+                    </p>
+                </div>
+            </div>    
+        </section>
+            <section class="row">
+                <div class="imagenesLink">
+                    <div class="col-xs-2"><a href="https://thegamersports.mundodeportivo.com/esports/moba-esports/noticias-lol/"target="_blank"><img src="imagenes/noticias.jpg" alt="News"></a>
+                    </div>
+                    <div class="col-xs-2"><a href="champions.html"><img src="imagenes/champions.jpg" alt="Champions"></a>
+                    </div>
+                    <div class="col-xs-2"><a href="organization.html"><img src="imagenes/organizacion.jpg" alt="Organization"></a>
+                    </div>
+                    <div class="col-xs-2"><a href="vocabulary.html"><img src="imagenes/diccionario.jpg" alt="Vocabulary"></a>
+                    </div>
+                    <div class="col-xs-2"><a href="comparison.html"><img src="imagenes/compara.jpg" alt="camparison"></a>
+                    </div>
+                    <div class="col-xs-2"><a href="league2018.html"><img src="imagenes/campeonato.jpg" alt="league"></a>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="ficus">
+                <h3>Desarrolladores ficus Team</h3>
+                <h3>Agata Gatoto</h3>
+                <h3>Purple Maja</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
