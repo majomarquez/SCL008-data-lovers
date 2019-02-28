@@ -128,6 +128,14 @@ body {
     margin: 5%;
 }/*-----FIN BODY VOCABULARY-----*/
 
+/*INICIO CHAMPION RESULT*/
+champ-details {
+    display: block;
+}
+
+
+
+/*-----FIN BODY CHAMPION RESULT---*/
 
 /*INICIO FOOTER*/
 footer{
