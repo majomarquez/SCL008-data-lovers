@@ -37,11 +37,24 @@ var images = ["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Ashe",
 			champs[0].style.display = 'none';
 		}
 	}
-	
-	function backToChampions() {
-		var champs = document.getElementsByClassName("champions");
-		champs[0].style.display = 'block';
-		var champDet = document.getElementsByClassName("champ-details");
-		
-		champDet[0].innerHTML = '';
-	}
+	// para sacar el id del boton adc
+	//Filtrado !!
+const data = LOL  // de donde voy a sacar la data
+const rowOrganization= document.getElementById("organizationBox");// voy a mostrar  la data
+const organization=  document.getElementById('adc');// llamando al boton adc
+
+organization.addEventListener("click",()=> { //llamando a constante organizacion y le doy el evento escuchar el link
+	let condition = organization.value; //rescatando el valor se pasa a la condicion
+	let filtering =filterTag (data, condition);// juntando data.js con el dom
+	rowOrganization.innerHTML=""; //limpiar el div
+	filtering.forEach(element => {
+		rowOrganization.innerHTML +=`
+		<div class ="organizationList">
+		<p>${element.name}</p>
+		<p>${element.title}</p>
+		</div>
+		`// name y title son lo que necesito
+	});
+})
+
+	//Fin Filtrado !!
