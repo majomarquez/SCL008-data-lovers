@@ -1,44 +1,31 @@
+
 /* INICIO ENCABEZADO*/
-.container-fluid {
-    padding-right: 0%;  
-    padding-left:  0%; 
-    margin-right:  0%;  
-    margin-left:  0%;  
-    }
-.topHeader{
+Header{
     background: #2F2F2F;
-    padding :1% 0% 2% 0%;
-    }
+
+}
 .headerLogo{
     display: table-cell;
     vertical-align: middle;
-    width: 5%;
+    height: 100%;
+    padding: 11% 0% 0% 20%;
     }
-.headerLogo img {
-    height: 80px;
-    padding: 7% 0% 0% 20%;
-    }
-.titleHeader {
-    display: table-cell;
-    vertical-align: middle;
-    width: 60%;
-    }
-.titleHeader h1 {
+Header h1 {
     color: #9A8B3F;
+    padding: 3%;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 32px;
+    font-size:32px ;
     font-weight: bold;
     text-transform: none;
-    }/*----- FIN ENCABEZADO-----*/
+}/*----- FIN ENCABEZADO-----*/
 
 
 
 /*INICIO MENU DE NAVEGACION*/
 .navbar {
     background: #2F2F2F;
-    position: static;
+    border-color: #bb9c10a8;
     width: -webkit-fill-available;
-    padding: 0% 0% 0% 10%;
     }
 .navbar ul {
     list-style: none;
@@ -48,17 +35,16 @@
     }
 .navbar ul li a {
     font-family: 'Cinzel', serif;
-    padding: 10px 50px;
     display: block;
     color:#c2c2c2;
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
     }
 .navbar ul li a:hover {
     background: #bebdbd;
     font-family: 'Cinzel', serif;
     color:#2F2F2F;
-    } /*----- FIN MENU DE NAVEGACION-----*/
+} /*----- FIN MENU DE NAVEGACION-----*/
 
 
 
@@ -71,28 +57,20 @@ body {
     background-size: cover;/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
     background-color: #d3c575;/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */  
     }
-.imagenesLink img{ /*video*/
-    width: 115%;
-    height: 110px;
-    }
 .infoHome p{ /*parrafo home*/
     color:#f8f2dc;
     font-family: 'Cinzel', serif;
     font-size: 22px;
     text-transform: none;
-    margin: 0% 0% 12% 0%;
     text-align: center;
-    }
-.imgLol img{ /*imagen parrafo home*/
-    width: 60%;
-    margin:0% 0% 0% 20%;
-    } /*-----FIN BODY INDEX-----*/
+    background: #31312e96
+}/*-----FIN BODY INDEX-----*/
 
 
 
 /* INICIO BODY ORGANIZATION*/
 .organizationBody {
-    background: rgba(28, 28, 24, 0.42);   
+    background: rgba(0, 0, 0, 0.42);
     }
 .organizationBody h3{
     margin: 3%;
@@ -104,47 +82,95 @@ body {
     TEXT-ALIGN: -webkit-center;
     font-size: 59px;
     }
+.organizationBody h2{
+    color: #9A8B3F;
+    TEXT-ALIGN: -webkit-center;
+    font-size: 59px;
+    }
 .organizationBody button{
     font-family: 'Cinzel', serif;
     color: #eac94d;
     font-size: 22px;
-    }/*-----FIN BODY ORGANIZATION-----*/
+    }
+.organization-wrapper {
+    float: left;
+    margin: 5px;
+}
+.champs-filtering {
+    background:#31312ec2;
+    padding: 3%;
+}
+.imagen{
+    max-width: 50%;
+    float: right;
+    margin: 5%;
+}
+.organizationBody p {
+    font-size: 25px;
+    margin: 5%;
+}
+.buttonBack{
+    margin: 0% 5%;
+    white-space: normal;
+} /*-----FIN BODY ORGANIZATION-----*/
 
 
 
 /* INICIO BODY VOCABULARY*/
 .vocabularyBody{
-    background: #18181794;
+    background: #181817d5;
     }
 .vocabularyBody h2{
     color:#959389;
     font-size: 25px;
     text-align: center;
-    margin: 5%;  
+    margin: 5%;
     }
 .vocabularyBody p{
     color:#9A8B3F;
     text-align: center;
     margin: 5%;
-}/*-----FIN BODY VOCABULARY-----*/
+} /*-----FIN BODY VOCABULARY-----*/
+
+/*INICIO CHAMPION */
+.champion-wrapper {
+    float: left;
+    margin: 5px;
+}/*fin CHAMPION */
+
 
 /*INICIO CHAMPION RESULT*/
-champ-details {
-    display: block;
+.champ-details {
+    font-size: 66px;
+    color:rgb(187, 181, 150);
+    
+}/*fin CHAMPION RESULT*/
+
+.champion .container .name{
+    font-size: 25px;
 }
-
-
-
+.champ-name{
+    font-size: 66px;
+    color: #9A8B3F;
+}
+.buttonBack{
+    color: #9A8B3F;
+}
 /*-----FIN BODY CHAMPION RESULT---*/
+
+
+
 
 /*INICIO FOOTER*/
 footer{
     background: rgb(47, 47, 47);
     margin: 4% 0% 0% 0%;
-    height: 10px;
     color: #fb0097;
     padding: 5%;
     clear: both
+}
+.socialMedia img{
+    padding: 8%;
 }
 footer h3{
     font-size: 16px;
