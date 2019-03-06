@@ -1,6 +1,7 @@
 const filterTag = (data, condition) => {
-    let filteredTag= data.filter (element =>{ // recorre y envia un array nuevo
-        return element.tags.includes(condition)  //revisa si la condicion es verdadera o falsa 
+    let filteredTag = Object.keys(data).filter(function(key){ // recorre y envia un array nuevo
+		let element = data[key];
+        return element.tags.includes(condition)  //revisa si la condicion es verdadera o falsa
     })
-    return filterTag;
+    return filteredTag;
 };
