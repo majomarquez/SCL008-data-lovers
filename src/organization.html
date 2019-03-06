@@ -1,101 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css">
+<!doctype html>
+<html lang= "en" >
+<head> <!-- Required meta tags -->
+    <meta charset= "utf-8" >
+    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" > <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Gloria+Hallelujah" rel="stylesheet">
+    <title>Data Lovers</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
 
-    <!-- INICIO ENCABEZADO-->
-<header>
+  <!-- INICIO ENCABEZADO-->
+  <header>
     <div class="container-fluid">
-        <div class="topHeader">
-            <div class="headerLogo"> <!--logotipo-->
-                <img src = "imagenes/logoSinFondo.png"  alt="logo">
+        <section class= "row">
+            <div class="col-xs-12 col-md-2">
+                <div class="headerLogo"> <!--logotipo-->
+                    <img src = "imagenes/logoSinFondo.png" class="img-responsive" alt="logo">
+                </div>
             </div>
-            <div class="titleHeader">
+
+            <div class="col-xs-12 col-md-9 ">   <!-- col-md-offset-1 para saltarme el espacio-->
                 <h1>Level UP League of Legends</h1>
             </div>
-        </div>
-        
-        <nav class="navbar"><!--Menu-->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="champions.html">Champions</a></li>
-                <li><a href="organization.html">Organización</a></li>
-                <li><a href="comparison.html">Comparar Champions</a></li>
-                <li><a href="vocabulary.html">Vocabulario</a></li>
-            </ul>
-        </nav>
-    </div>    
-</header>
-<!-- FIN ENCABEZADO-->
+        </section>
+    </div>
+        <div class="clearfix visible-xs-block"></div>
 
-
-    <div class="container">
-        <div class="organizationBody">
-            <div class="row">        
-                <h3>Hemos organizado a los campeones según Rol , Tag y Type . Clickea 
-                    el que te interese para conocer a los campeones que pertenecen a ese grupo.
-                </h3>
-                <div class="col-md-4">
-                    <h1>ROL</h1>
-                    <button id="adc" class="btn btn-lg btn-block btn-link "><a href="organizationResult.html">ADC</a></button>
-                    <button id="jungle" class="btn btn-lg btn-block btn-link"><a href="organizationResult.html">Jungle</a></button>
-                    <button id="mid" class="btn btn-lg btn-block btn-link"><a href="organizationResult.html">Mid</a></button>
-                    <button id="top" class="btn btn-lg btn-block btn-link"><a href="organizationResult.html">Top</a></button>
-                    <button id="support" class="btn btn-lg btn-block btn-link"><a href="organizationResult.html">Support</a></button>
+        <nav class="navbar navbar-default"><!--Menu-->
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">LUL</a>
                 </div>
-                <div class="col-md-4">
-                    <h1>TAG</h1>
-                    <button class="btn btn-lg btn-block btn-link">Assassin</button>
-                    <button class="btn btn-lg btn-block btn-link">Figther</button>
-                    <button class="btn btn-lg btn-block btn-link">Mage</button>
-                    <button class="btn btn-lg btn-block btn-link">Marksman</button>
-                    <button class="btn btn-lg btn-block btn-link">Support</button>
-                    <button class="btn btn-lg btn-block btn-link">Tank</button>
-                </div>
-                <div class="col-md-4">
-                    <h1>TYPE</h1>
-                    <button class="btn btn-lg btn-block btn-link">Blood Well</button>
-                    <button class="btn btn-lg btn-block btn-link">Courage</button>
-                    <button class="btn btn-lg btn-block btn-link">Crimson Rush</button>
-                    <button class="btn btn-lg btn-block btn-link">Energy</button>
-                    <button class="btn btn-lg btn-block btn-link">Flow</button>
-                    <button class="btn btn-lg btn-block btn-link">Fury</button>
-                    <button class="btn btn-lg btn-block btn-link">Heat</button>
-                    <button class="btn btn-lg btn-block btn-link">Mana</button>
-                    <button class="btn btn-lg btn-block btn-link">None</button>
-                    <button class="btn btn-lg btn-block btn-link">Rage</button>
-                    <button class="btn btn-lg btn-block btn-link">Shield</button>
-                    <button class="btn btn-lg btn-block btn-link">Ferocity</button>
+                <div class="collapse navbar-collapse" id="navbar-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="champions.html">Champions</a></li>
+                        <li><a href="organization.html">Organización</a></li>
+                        <!-- <li><a href="comparison.html">Comparar Champions</a></li> -->
+                        <li><a href="vocabulary.html">Vocabulario</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </header>
+<!-- FIN ENCABEZADO-->
+
+    <div class="container" >
+        <div class="organizationBody" id="organizationBody">
+          <div class=" champs-filtering">
+            <div class="row" id="allOrganization">
+                <h3>Hemos organizado a los campeones según Tag. Clickea
+                    el que te interese para conocer a los campeones que pertenecen a ese grupo.
+                </h3>
+                <h1>TAG</h1>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link" value="Assassin">Assassin</button>
+                    </div>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link" value="Fighter">Fighter</button>
+                    </div>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link" value="Mage">Mage</button>
+                    </div>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link" value="Marksman">Marksman</button>
+                    </div>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link"value="Support">Support</button>
+                    </div>
+                    <div class="col-md-2" >
+                        <button class="btn btn-lg btn-block btn-link" value="Tank">Tank</button>
+                    </div>
+            </div>
+            <div class="col-md-12">
+            <div class="row"  id="organizationBox"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row champ-details"></div>
+        </div>
         </div>
     </div>
 
-    <footer>
-            <div class="ficus">
-                <div class="container-fluid">
+
+<footer>
+    <div class="container-fluid">
+        <section class="row">
+            <div class="team">
+                <div class="col-xs-6 col-md-11">
                     <h3>Desarrolladores ficus Team</h3>
                     <h3>Agata Gatoto</h3>
                     <h3>Purple Maja</h3>
                 </div>
             </div>
-        </footer>
-    
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="data/lol/lol.js"></script>
-        <script src="data.js"></script>
-        <script src="main.js"></script>
-    </body>
-    </html>
+            <div class="socialMedia">
+                <div class="col-xs-6 col-md-1">
+                    <a href="https://facebook.com"target="_blank"><img src="imagenes/facebook.png" class="img-responsive" alt="facebook"></a>
+                    <a href="https://twitter.com"target="_blank"><img src="imagenes/twitter.png" class="img-responsive" alt="twitter"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+
+<script src="data/lol/lol.js"></script>
+<script src="data.js"></script>
+<script src="main.js"></script>
+<script>"code.jquery.com/jquery-latest.js"</script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
