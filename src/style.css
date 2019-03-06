@@ -14,7 +14,7 @@ Header h1 {
     color: #9A8B3F;
     padding: 3%;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size:32px ;
+    font-size:7vh ;
     font-weight: bold;
     text-transform: none;
 }/*----- FIN ENCABEZADO-----*/
@@ -60,7 +60,7 @@ body {
 .infoHome p{ /*parrafo home*/
     color:#f8f2dc;
     font-family: 'Cinzel', serif;
-    font-size: 22px;
+    font-size: 8vh;
     text-transform: none;
     text-align: center;
     background: #31312e96
@@ -75,22 +75,23 @@ body {
 .organizationBody h3{
     margin: 3%;
     color: #9A8B3F;
+    font-size: 6vh;
     }
 .organizationBody h1{
     font-family: 'Cinzel', serif;
     color: #959389;
     TEXT-ALIGN: -webkit-center;
-    font-size: 59px;
+    font-size: 15vh;
     }
 .organizationBody h2{
     color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
-    font-size: 59px;
+    font-size: 17vh;
     }
 .organizationBody button{
     font-family: 'Cinzel', serif;
     color: #eac94d;
-    font-size: 22px;
+    font-size: 7vh;
     }
 .organization-wrapper {
     float: left;
@@ -106,12 +107,15 @@ body {
     margin: 5%;
 }
 .organizationBody p {
-    font-size: 25px;
+    font-size: 7vh;
     margin: 5%;
+    color: #babab8;
 }
 .buttonBack{
     margin: 0% 5%;
+    font-size: 20vh;
     white-space: normal;
+    color: #9A8B3F;
 } /*-----FIN BODY ORGANIZATION-----*/
 
 
@@ -132,31 +136,25 @@ body {
     margin: 5%;
 } /*-----FIN BODY VOCABULARY-----*/
 
+
+
 /*INICIO CHAMPION */
 .champion-wrapper {
     float: left;
     margin: 5px;
-}/*fin CHAMPION */
+}
 
-
-/*INICIO CHAMPION RESULT*/
-.champ-details {
-    font-size: 66px;
-    color:rgb(187, 181, 150);
+.championBody p {
+    font-size: 7vh;
+    margin: 5%;
+    color: #babab8;
+}
+.championBody h2{
+    color: #9A8B3F;
+    TEXT-ALIGN: -webkit-center;
+    font-size: 17vh;
     
-}/*fin CHAMPION RESULT*/
-
-.champion .container .name{
-    font-size: 25px;
-}
-.champ-name{
-    font-size: 66px;
-    color: #9A8B3F;
-}
-.buttonBack{
-    color: #9A8B3F;
-}
-/*-----FIN BODY CHAMPION RESULT---*/
+}/*-----FIN BODY CHAMPION RESULT---*/
 
 
 
