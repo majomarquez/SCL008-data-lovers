@@ -14,9 +14,14 @@ Header h1 {
     color: #9A8B3F;
     padding: 3%;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size:7vh ;
+    font-size:27px ;
     font-weight: bold;
     text-transform: none;
+}
+    @media (max-width:768px) and (min-width:1px) {
+        Header h1 {
+            font-size: 12px;
+        }
 }/*----- FIN ENCABEZADO-----*/
 
 
@@ -44,6 +49,12 @@ Header h1 {
     background: #bebdbd;
     font-family: 'Cinzel', serif;
     color:#2F2F2F;
+}
+    @media (max-width:768px) and (min-width:1px) {
+        .navbar ul li a {
+            font-size: 12px;
+        }
+
 } /*----- FIN MENU DE NAVEGACION-----*/
 
 
@@ -64,8 +75,14 @@ body {
     font-size: 22px;
     text-transform: none;
     text-align: center;
-    background: #31312e96
-}/*-----FIN BODY INDEX-----*/
+    background: #31312e96;
+}
+    @media (max-width:768px) and (min-width:1px) {
+        .infoHome p{
+        font-size: 12px;
+        }
+    }
+/* }-----FIN BODY INDEX-----
 
 
 
@@ -78,21 +95,51 @@ body {
     color: #9A8B3F;
     font-size: 25px;
     }
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody h3{
+           font-size: 12px;
+        }
+    }
 .organizationBody h1{
     font-family: 'Cinzel', serif;
     color: #959389;
     TEXT-ALIGN: -webkit-center;
-    font-size: 15vh;
+    font-size: 68px;
+    }
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody h1{
+           font-size: 34px;
+        }
     }
 .organizationBody h2{
     color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
     font-size: 66px;
     }
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody h2{
+           font-size: 33px;
+        }
+    }
+.organizationBody p {
+    font-size: 25px;
+    margin: 5%;
+    color: #babab8;
+}
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody p{
+            font-size: 33px;
+        }
+    }
 .organizationBody button{
     font-family: 'Cinzel', serif;
     color: #eac94d;
     font-size: 24px;
+    }
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody button{
+           font-size: 12px;
+        }
     }
 .organization-wrapper {
     float: left;
@@ -107,16 +154,17 @@ body {
     float: right;
     margin: 5%;
 }
-.organizationBody p {
-    font-size: 6vh;
-    margin: 5%;
-    color: #babab8;
-}
+
 .buttonBack{
     margin: 0% 5%;
-    font-size: 16vh;
+    font-size: 40px;
     white-space: normal;
     color: #9A8B3F;
+}
+@media (max-width:768px) and (min-width:1px) {
+    .organizationBody button{
+       font-size: 12px;
+    }
 } /*-----FIN BODY ORGANIZATION-----*/
 
 
@@ -146,16 +194,20 @@ body {
 }
 
 .championBody p {
-    font-size: 7vh;
+    font-size: 25px;
     margin: 5%;
     color: #babab8;
 }
 .championBody h2{
     color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
-    font-size: 17vh;
-    
-}/*-----FIN BODY CHAMPION RESULT---*/
+    font-size: 66px;
+}
+    @media (max-width:768px) and (min-width:1px) {
+        .organizationBody h2{
+           font-size: 33px;
+        }
+    }/*-----FIN BODY CHAMPION RESULT---*/
 
 
 
@@ -177,6 +229,3 @@ footer h3{
 .ficus{
     margin: -4% 0% 0% 0%;
 }/*-----FIN FOOTER-----*/
-
-
-
