@@ -59,8 +59,9 @@ body {
     }
 .infoHome p{ /*parrafo home*/
     color:#f8f2dc;
+    padding: 3%;
     font-family: 'Cinzel', serif;
-    font-size: 8vh;
+    font-size: 22px;
     text-transform: none;
     text-align: center;
     background: #31312e96
@@ -86,7 +87,7 @@ body {
 .organizationBody h2{
     color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
-    font-size: 17vh;
+    font-size: 66px;
     }
 .organizationBody button{
     font-family: 'Cinzel', serif;
@@ -107,13 +108,13 @@ body {
     margin: 5%;
 }
 .organizationBody p {
-    font-size: 7vh;
+    font-size: 6vh;
     margin: 5%;
     color: #babab8;
 }
 .buttonBack{
     margin: 0% 5%;
-    font-size: 20vh;
+    font-size: 16vh;
     white-space: normal;
     color: #9A8B3F;
 } /*-----FIN BODY ORGANIZATION-----*/
