@@ -163,7 +163,7 @@ body {
     color: #9A8B3F;
 }
 @media (max-width:768px) and (min-width:1px) {
-    .organizationBody button{
+    .buttonBack{
        font-size: 12px;
     }
 } /*-----FIN BODY ORGANIZATION-----*/
@@ -205,7 +205,7 @@ body {
     font-size: 66px;
 }
     @media (max-width:768px) and (min-width:1px) {
-        .organizationBody h2{
+        .championBody h2{
            font-size: 33px;
         }
     }/*-----FIN BODY CHAMPION RESULT---*/
