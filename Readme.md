@@ -94,9 +94,7 @@ Diseño<br>
 <h2 id="implementación-de-la-interfaz-de-usuario-htmlcssjs">Implementación de la Interfaz de Usuario (HTML/CSS/JS)</h2>
 <p>Se utilizó Vanilla JS, CSS , HTML y Boostrap.<br>
 En la interfaz logramos mostrar todas las imágenes y parte de la información de los campeones que se encontraban en la data permitiendo filtrarlos por categoría, lo que puede ser visualizado en distintos tamaños de pantallas móviles.</p>
-<h2 id="test">Test</h2>
-<p>blabla</p>
-<h2 id="pruebas-unitarias">Pruebas unitarias</h2>
+
 <h2 id="checklist">Checklist</h2>
 <p>Checklist Obligatorio para el Proyecto</p>
 <ul>
@@ -119,5 +117,4 @@ en  <code>README.md</code>. Incluye  _Diseño</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> UI: Permite ordenar data por uno o más campos (asc y desc).</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> UI: Permite filtrar data en base a una condición.</li>
 </ul>
-<p><strong>El Checklist se cumplió en un XX%</strong></p>
 
