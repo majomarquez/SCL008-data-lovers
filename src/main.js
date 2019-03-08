@@ -1,5 +1,5 @@
 /* Manejo del DOM */
-const data = LOL.data; 
+const data = window.LOL.data;
 
 // function for see all champions just small pictures :)
 let images = ["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Ashe","AurelionSol","Azir","Bard","Blitzcrank",
