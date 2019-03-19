@@ -1,4 +1,3 @@
-
 /* INICIO ENCABEZADO*/
 Header{
     background: #2F2F2F;
@@ -11,10 +10,12 @@ Header{
     padding: 11% 0% 0% 20%;
     }
 Header h1 {
-    color: #9A8B3F;
+    background: linear-gradient(rgb(250, 233, 0),rgb(68, 59, 23));
+    -webkit-background-clip: text;
+    color: transparent;
     padding: 3%;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size:27px ;
+    font-size:32px ;
     font-weight: bold;
     text-transform: none;
 }
@@ -27,35 +28,50 @@ Header h1 {
 
 
 /*INICIO MENU DE NAVEGACION*/
-.navbar {
+
+.navbar-nav {
     background: #2F2F2F;
-    border-color: #bb9c10a8;
-    width: -webkit-fill-available;
-    }
-.navbar ul {
-    list-style: none;
-    }
-.navbar ul li {
+    float: none;
+}
+
+.navbar ul li  {
+    
     float: left;
+    padding: 2%;
     }
-.navbar ul li a {
-    font-family: 'Cinzel', serif;
-    display: block;
-    color:#c2c2c2;
+    
+.a {
     font-size: 17px;
     text-decoration: none;
+    
     }
 .navbar ul li a:hover {
     background: #bebdbd;
-    font-family: 'Cinzel', serif;
     color:#2F2F2F;
 }
-    @media (max-width:768px) and (min-width:1px) {
-        .navbar ul li a {
-            font-size: 12px;
-        }
 
-} /*----- FIN MENU DE NAVEGACION-----*/
+/*----- FIN MENU DE NAVEGACION-----*/
+
+/* INICIO CSS EN COMUN*/
+.navbar ul li a  , .navbar ul li a:hover ,.infoHome p, .organizationBody h1, .organizationBody button {
+    font-family: 'Open Sans', sans-serif;
+    }
+.container h3, .container h2,.organizationBody button, .buttonBack,.championBody h2,.vocabularyBody h2,
+.navbar-brand , .vocabularyBody h4{
+color: #c9a91afd;
+}
+.infoHome p, .container{
+background: #31312eb9;
+padding:0% 2% 0% 2%;
+}
+.infoHome p,.championBody p,.container h1, p, .navbar ul li a ,.form-control,.champion-wrapper,.imagenesLink a,
+ .vocabularyBody h3 {
+color:#f8f2dc;
+}
+.vocabularyBody h2, .vocabularyBody h4,.vocabularyBody h3,.infoHome p{
+text-align: center;
+}
+/*----- FIN CSS EN COMUN-----*/
 
 
 
@@ -69,32 +85,27 @@ body {
     background-color: #d3c575;/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */  
     }
 .infoHome p{ /*parrafo home*/
-    color:#f8f2dc;
     padding: 3%;
-    font-family: 'Cinzel', serif;
     font-size: 22px;
     text-transform: none;
-    text-align: center;
-    background: #31312e96;
+    margin: 1%;
+    ;
 }
     @media (max-width:768px) and (min-width:1px) {
         .infoHome p{
         font-size: 12px;
         }
     }
+    
 /* }-----FIN BODY INDEX-----
 
 
 
 /* INICIO BODY ORGANIZATION*/
-.organizationBody {
-    background: rgba(0, 0, 0, 0.42);
-    }
+
 .organizationBody h3{
     margin: 3%;
-    color: #9A8B3F;
-    color: #babab8;;
-    font-size: 25px;
+    font-size: 23px;
     }
     @media (max-width:768px) and (min-width:1px) {
         .organizationBody h3{
@@ -102,8 +113,7 @@ body {
         }
     }
 .organizationBody h1{
-    font-family: 'Cinzel', serif;
-    color: #959389;
+
     TEXT-ALIGN: -webkit-center;
     font-size: 68px;
     }
@@ -113,7 +123,6 @@ body {
         }
     }
 .organizationBody h2{
-    color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
     font-size: 66px;
     }
@@ -125,16 +134,14 @@ body {
 .organizationBody p {
     font-size: 25px;
     margin: 5%;
-    color: #babab8;
 }
     @media (max-width:768px) and (min-width:1px) {
         .organizationBody p{
             font-size: 33px;
         }
     }
-.organizationBody button{
-    font-family: 'Cinzel', serif;
-    color: #eac94d;
+.organizationBody button {
+
     font-size: 24px;
     }
     @media (max-width:768px) and (min-width:1px) {
@@ -146,10 +153,7 @@ body {
     float: left;
     margin: 5px;
 }
-.champs-filtering {
-    background:#31312ec2;
-    padding:0% 2% 12% 2%
-}
+
 .imagen{
     max-width: 50%;
     float: right;
@@ -160,7 +164,6 @@ body {
     margin: 0% 5%;
     font-size: 40px;
     white-space: normal;
-    color: #9A8B3F;
 }
 @media (max-width:768px) and (min-width:1px) {
     .buttonBack{
@@ -171,36 +174,41 @@ body {
 
 
 /* INICIO BODY VOCABULARY*/
-.vocabularyBody{
-    background: #181817d5;
-    }
+
 .vocabularyBody h2{
-    color:#959389;
     font-size: 25px;
-    text-align: center;
     margin: 5%;
     }
-.vocabularyBody p{
-    color:#9A8B3F;
-    text-align: center;
-    margin: 5%;
-} /*-----FIN BODY VOCABULARY-----*/
+.vocabularyBody h4{
+    font-size: 30px;
+    margin: 2%;
+    }
+
+ /*-----FIN BODY VOCABULARY-----*/
 
 
 
 /*INICIO CHAMPION */
+
+.form-control {
+    background: #31312eb9;
+    border: 1px solid #c9a91afd;
+}
+.champName{
+    padding: 1% 5% 0% 0%; 
+}
 .champion-wrapper {
     float: left;
     margin: 5px;
+    width: 46%;
+    display: -webkit-box;
 }
 
 .championBody p {
     font-size: 25px;
     margin: 5%;
-    color: #babab8;
 }
 .championBody h2{
-    color: #9A8B3F;
     TEXT-ALIGN: -webkit-center;
     font-size: 66px;
 }
@@ -210,8 +218,19 @@ body {
         }
     }/*-----FIN BODY CHAMPION RESULT---*/
 
+/* comparison */
+.tagSelection p{
+    margin: auto;
+}
+button#select-button{
+background: none;
+border: none;
+}
 
-
+.rowOrderBody div{
+    float: left;
+    padding: 0% 8% 0% 0%;
+}
 
 /*INICIO FOOTER*/
 footer{
