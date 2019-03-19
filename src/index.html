@@ -2,13 +2,18 @@
 <html lang= "en" >
 <head> <!-- Required meta tags -->
     <meta charset= "utf-8" >
-    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" > <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Gloria+Hallelujah" rel="stylesheet">
-    <title>Data Lovers</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" >
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans" rel="stylesheet">
+    <title>Level Up LOL</title><!-- título al lado de favicon-->
+    <title>Sweet Secrets Mi Diario de Vida</title><!-- título al lado de favicon-->
+    <link rel="shortcut icon" type="imagen/x-icon" href="imagenes/logoSinFondo.ico"><!-- insertar el favicon-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+     crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -17,51 +22,59 @@
 <body>
 
   <!-- INICIO ENCABEZADO-->
-  <header>
-    <div class="container-fluid">
-        <section class= "row">
-            <div class="col-xs-12 col-md-2">
-                <div class="headerLogo"> <!--logotipo-->
-                    <img src = "imagenes/logoSinFondo.png" class="img-responsive" alt="logo">
+    <header>
+        <div class="container-fluid">
+            <section class= "row">
+                <div class="col-xs-12 col-md-2">
+                    <div class="headerLogo"> <!--logotipo-->
+                        <img src = "imagenes/logoSinFondo.png" class="img-responsive" alt="logo">
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-xs-12 col-md-9 ">   <!-- col-md-offset-1 para saltarme el espacio-->
-                <h1>Level UP League of Legends</h1>
-            </div>
-        </section>
-    </div>
+                <div class="col-xs-12 col-md-9 ">   <!-- col-md-offset-1 para saltarme el espacio-->
+                    <h1>Level UP League of Legends</h1>
+                </div>
+            </section>
+        </div>
         <div class="clearfix visible-xs-block"></div>
 
-        <nav class="navbar "><!--Menu-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#navbar-1">
-                        <span class="sr-only"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand"></a>
-                </div>
-                <div class="collapsed navbar-collapsed" id="navbar-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="champions.html">Champions</a></li>
-                        <li><a href="organization.html">Organización</a></li>
-                        <!-- <li><a href="comparison.html">Comparar Champions</a></li> -->
-                        <li><a href="vocabulary.html">Vocabulario</a></li>
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="champions.html">Champions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="organization.html">Organización</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparar Champions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="vocabulary.html">Vocabulario</a>
+                    </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
     </header>
 <!-- FIN ENCABEZADO-->
 
 
-<div class="container">
+<div class="container-fluid">
     <section class= "main row">
-        <article class="col-xs-6">
+        <article class="col-xs-12 col-md-6">
             <div class="video">
                 <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube.com/embed/YNKfQ8swjnA?start=5"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -70,7 +83,7 @@
             </div>
         </article>
         <div class="infoHome">
-            <div class="col-xs-6">
+            <div class="col-xs-12 col-md-6">
                 <div class=imgLol><img src="imagenes/LOLlogo.jpg" class="img-responsive" alt="lol"><a href="index.html"></a>
                 </div>
             </div>
@@ -84,17 +97,17 @@
     </section>
         <section class="row">
             <div class="imagenesLink">
-                <div class="col-xs-4 col-md-2"><a href="https://thegamersports.mundodeportivo.com/esports/moba-esports/noticias-lol/"target="_blank"><img src="imagenes/noticias.jpg" class="img-responsive" alt="News"></a>
+                <div class="col-xs-12 col-md-2"><a href="https://thegamersports.mundodeportivo.com/esports/moba-esports/noticias-lol/"target="_blank"><img src="imagenes/noticias.jpg" class="img-responsive" alt="News"> Noticias</a>
                 </div>
-                <div class="col-xs-4 col-md-2"><a href="champions.html"><img src="imagenes/champions.jpg" class="img-responsive" alt="Champions"></a>
+                <div class="col-xs-12 col-md-2"><a href="champions.html"><img src="imagenes/champions.jpg" class="img-responsive" alt="Champions">Champions</a>
                 </div>
-                <div class="col-xs-4 col-md-2"><a href="organization.html"><img src="imagenes/organizacion.jpg" class="img-responsive" alt="Organization"></a>
+                <div class="col-xs-12 col-md-2"><a href="organization.html"><img src="imagenes/organizacion.jpg" class="img-responsive" alt="Organization">Organiza tus Champions</a>
                 </div>
-                <div class="col-xs-4 col-md-2"><a href="vocabulary.html"><img src="imagenes/diccionario.jpg" class="img-responsive" alt="Vocabulary"></a>
+                <div class="col-xs-12 col-md-2"><a href="vocabulary.html"><img src="imagenes/diccionario.jpg" class="img-responsive" alt="Vocabulary">Vocabulario</a>
                 </div>
-                <div class="col-xs-4 col-md-2"><a href="comparison.html"><img src="imagenes/compara.jpg" class="img-responsive" alt="camparison"></a>
+                <div class="col-xs-12 col-md-2"><a href="comparison.html"><img src="imagenes/compara.jpg" class="img-responsive" alt="camparison">Compara tus Champions</a>
                 </div>
-                <div class="col-xs-4 col-md-2"><a href="league2018.html"><img src="imagenes/campeonato.jpg" class="img-responsive" alt="league"></a>
+                <div class="col-xs-12 col-md-2"><a href="league2018.html"><img src="imagenes/campeonato.jpg" class="img-responsive" alt="league">Videos Liga</a>
                 </div>
             </div>
     </section>
